@@ -64,7 +64,7 @@ st.markdown('---') # Add a page break
 def showStockNames():
     # ONLY NEED SYMBOL AND NAME
     stockName_df = pd.read_csv(
-        'Data/stockNames.csv', 
+        'stockNames.csv', 
         index_col = 0, 
         usecols= ['Symbol', 'Name']
         )
